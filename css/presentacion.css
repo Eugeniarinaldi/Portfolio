@@ -1,0 +1,55 @@
+/* Presentacion */
+.presentacion{
+    width: 90%;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 280px;
+    display: flexbox;    
+}
+.hola{
+    font-size: 30px;
+    color: rgb(17, 13, 62);
+    font-weight: 600;
+}
+h1{
+    color: #7f3a5f;
+    font-size: 50px;    
+}    
+.descripcion{
+    color: rgb(17, 13, 62);
+    font-size: 15px;
+    margin-top: 20px;
+    display: flex;
+}
+.quehago{
+    height: 45px;
+    width: 200px;
+    margin-top: 10%;
+    border-radius: 30px;
+    color: #7f3a5f;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #dab2b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.quehago:hover{
+    background-color: rgb(182, 180, 180);
+    cursor: pointer;
+}
+
+.intro{
+    width: 60%;
+    height: auto;
+    
+}
+.fotperfil{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50vh;
+
+}
+
