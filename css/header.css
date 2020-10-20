@@ -1,7 +1,10 @@
 /* Header */
+
+
 header{
     display: flex;
-}
+    /* box-shadow: 10px 10px 0px 5px #c9a5aa; */
+} 
 
 .indice{
     width: 100%;
@@ -9,8 +12,6 @@ header{
     background-color: #7f3a5f;
     display: inline-flex;
     list-style: none;
-    /* justify-content: flex-end; */
-    /* align-items: center; */
     position: fixed;
     top: 0;
 }
@@ -22,11 +23,16 @@ header, .indice, ul, li{
     text-transform: uppercase;
     display: inline-flex;
     margin: auto;
-    
+    /* justify-content: flex-end;
+    justify-items: flex-end; */
 }
 
 ul{
    display: flex;
+   margin-left: 55%;
+   /* justify-items: flex-end; */
+   /* justify-content: flex-end; */
+
 }
 
 header, .indice, a{ 
@@ -37,16 +43,19 @@ header, .indice, a{
     justify-content: right;
 }
 
+
 .ctc{
     height: 6vh;
     width: 20vh; 
     background-color: #c9a5aa;
     border-radius: 30vh;
     display: flex;
-    justify-content: center;
     align-items: center;
+    padding: 4%;
+
+    /* unica forma de centrar txt */
+        
 }
 .ctc:hover{
     background-color: rgb(221, 221, 221);
 }
-

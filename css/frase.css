@@ -1,0 +1,54 @@
+
+.cita{
+    height:75vh;
+    width: 100%;
+    margin-top: 12%;
+    background-color: #7f3a5f;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.frase{
+    width: 60%;
+    height: 20%;
+    position: absolute;
+    margin-bottom: 12%;
+    color: #dab2b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 17%;
+    margin-left: 18%;
+    line-height: 1.7;
+    font-size: 110%;
+
+}
+.autor{
+    position: absolute;
+    width: 30%;
+    /* margin-right: 70%; */
+    color: #dab2b8;
+    align-self: flex-end;
+    text-align: center;
+    margin-left: 35%;
+    margin-bottom: 6%;
+    /* justify-items: center; */
+   
+}
+
+.fa-quote-right{
+    position: relative;
+    height:17%;
+    width: 15%;
+    font-size: 80px;
+    color: #dab2b8;
+    margin-bottom: 20%;  
+    margin-left: 45%;  
+   
+    
+    
+}

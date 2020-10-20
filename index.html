@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/presentacion.css">
     <link rel="stylesheet" href="css/habilidades.css">
+    <link rel="stylesheet" href="css/frase.css">
+    <link rel="shortcut icon" href="img/undraw_aircraft_fbvl.png"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <script src="https://kit.fontawesome.com/4461fe01ff.js" crossorigin="anonymous"></script>
     <title>Portafolio</title>
@@ -17,15 +19,15 @@
     <header>
         <nav class="indice">
             <ul>
-                <li>
+                <li class="first">
                     <a href="#">HOLA</a> 
                 </li>
 
-                <li>
+                <li class="first">
                     <a href= "#conocimientos">Conocimientos</a>
                 </li>
 
-                <li>
+                <li class="first">
                     <a href="#proyectos">PROYECTOS </a>
                 </li>
 
@@ -46,7 +48,7 @@
             <div class="intro">
                 <p class="hola">¡Hola! Soy </p>
                 <h1>María Eugenia Rinaldi</h1>
-                <p class="descripcion"> Desarrolladora FrontEnd, Aeronáutica y amante de los viajes</p>
+                <p class="descripcion"> Desarrolladora FrontEnd, Aeronáutica y Agente de Viajes</p>
                 <p class="quehago"><a href="#proyectos">LO QUE HAGO</a>
                 </p> 
             </div>
@@ -61,46 +63,45 @@
 
 
         <!-- Habilidades -->
-
-        <section class="habilidades"> 
-            <a name="conocimientos"></a>
+        <a name="conocimientos"></a> 
+        <section class="habilidades">  
             
             <article class="introconocimientos">
                 
                 <h2 class="conocimientos">Mis conocimientos</h2>
-                <p>Lenguajes y herramientas que estoy aprendiendo</p>
+                <p class="text">Lenguajes y herramientas que estoy aprendiendo</p>
 
             </article>
 
             <div class="lenguajes">
-                <div>
+                <div class="skill">
                 <i class="devicon-html5-plain-wordmark colored"></i>
-                <p>HTML 5</p>
+                <p class="language">HTML 5</p>
                 </div>
 
-                <div>
+                <div class="skill">
                 <i class="devicon-css3-plain-wordmark colored"></i>
-                <p>CSS 3</p>
+                <p class="language"> CSS 3</p>
                 </div>
 
-                <div>
+                <div class="skill">
                 <i class="devicon-sass-original colored"></i>
-                <p>Sass</p>
+                <p class="language">Sass</p>
                 </div>
 
-                <div>
+                <div class="skill">
                 <i class="devicon-javascript-plain colored"></i>
-                <p>JavaScript</p>
+                <p class="language">JavaScript</p>
                 </div>
 
-                <div>
-                <i class="devicon-react-original-wordmark colored"></i>
-                <p>React</p>    
+                <div class="skill">
+                    <i class="devicon-react-original colored"></i>
+                <p class="language">React</p>    
                 </div>
 
-                <div>
-                <i class="devicon-git-plain colored"></i>
-                <p>Git</p>
+                <div class="skill">
+                    <i class="devicon-git-plain colored"></i>
+                <p class="language">Git</p>
                 </div>
 
 
@@ -116,16 +117,16 @@
         <section class="cita">
             <i class="fas fa-quote-right"></i>
             <p class="frase">No es la más fuerte ni la mas inteligente de las especies la que sobrevive, sino la que mejor se adapta al cambio". </p>
-            <h2>Charles Darwin</h2>
+            <h2 class="autor">Charles Darwin</h2>
         </section>
     
         <!-- Fin Frase -->
     
     
         <!-- Proyectos -->
-            
+            <a name="proyectos"></a>
             <section class="Proyectos">
-                <a name="proyectos">proyectos
+                
                     <h2>Mis Proyectos</h2>
                 </a>
                 <p>Durante mi cursada estaré desarrollando los siguientes proyectos.</p>
@@ -203,7 +204,7 @@
 
         <!-- FOOTER -->
     <footer>
-        <div class="ultimo menu">
+        <div class="last menu">
             <a href="hola">Hola</a>
             <a href="#">Conocimientoss</a>
             <a href="proyecto">ProyectosS</a>

@@ -1,6 +1,91 @@
+/* habulidades */
+
+
 .habilidades{
     width: 90%;
-    height: 100%;
-    margin-left: 5%;
+    height: 100vh;
+    position: relative;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.introconocimientos{
+    margin-top: 4%;
+
+}
+
+.conocimientos{
+    width: 100%;
+    height: 10%;
+    font-weight: 900;
+    font-size: 6vh;
+    color: rgb(17, 13, 62);
+    margin: 0;
+    text-align: center;
+    /* display: flex; */
+    /* align-self: center; */
+    /* justify-self: center; */
+    /* text-align: center; */
+}
+
+.text{
+    width: 40vw;
+    height: 10vh;
+    font-size: 2.5vh;
+    color: rgb(17, 13, 62);
+    margin: 0;
+    text-align: center;
+    justify-self: center;
+}
+
+/* .devicon-sass-original .colored{
+    /* height: 50px; */
+    /* width: 100px; */
+     
+
+.lenguajes{
+    width: 70em;
+    height: 70%;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin-left: 17%;
+    
+}
+
+.skill{
+    background-color:rgb(238, 238, 238);
+    height: 220px;
+    width: 250px;
+    font-size: 1rem;
+    border: thin;
+    border-radius: 3%;
+    border-color: #dab2b8;
+    margin: 1% 2rem;
+    text-align: center;
+    /* justify-content: center; */
+    border: solid 0.1rem rgb(201, 201, 201);
+    padding-top: 4%;
+}
+
+.skill:hover{
+    /* background-color:rgb(172, 172, 172); */
+    border: ridge 2px rgb(196, 196, 196);
+}
+
+.colored{
+    font-size: 6rem;
+    
+}
+
+.language{
+    padding: 8%;
+    font-weight: 900;
+    color: rgb(68, 68, 68);
 }
 

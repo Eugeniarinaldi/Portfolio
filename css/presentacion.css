@@ -18,12 +18,12 @@ h1{
 .descripcion{
     color: rgb(17, 13, 62);
     font-size: 15px;
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
 }
 .quehago{
-    height: 45px;
-    width: 200px;
+    height: 8vh;
+    width: 16vw;
     margin-top: 10%;
     border-radius: 30px;
     color: #7f3a5f;
@@ -33,6 +33,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: auto;
     
 }
 
