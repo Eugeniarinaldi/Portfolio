@@ -1,0 +1,85 @@
+.lastcontact{
+    height: 40rem;
+    width: 90%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 5%;
+    align-content: center;
+    border: solid 0.1em #7f3a5f;
+    border-radius: 0.8em;
+}
+
+.lastcontact div{
+    height: 100%;
+    width: 45%;
+    display: flexbox; 
+    margin-top: 5em;
+}
+.write-me{
+    background-color: lightsalmon;   
+}
+
+.contact-me{
+    display: inline-flex;
+    flex-direction: column;
+}
+.lastcontact div h2{
+    width: 100%;
+    height: 10%;
+    font-weight: 900;
+    font-size: 6vh;
+    color: rgb(17, 13, 62);
+    margin: 0;
+    text-align: center;
+}
+
+.lastcontact div p{
+    width: 40vw;
+    height: 10vh;
+    font-size: 2.5vh;
+    color: rgb(17, 13, 62);
+    margin: 0;
+    text-align: center;
+    
+}
+
+.lastcontact .contact-me a href{
+    height: 3em;
+    width: 3em;
+    background-color: cyan;
+}
+
+span{
+    background-color: blueviolet;
+}
+.lastcontact .contact-me .fas{
+    height: 2em;
+    width: 2em;
+    color: #7f3a5f ;
+    margin: 0.5 em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.lastcontact .contact-me .fas:hover{
+    background-color: #7f3a5f;
+    color: #c9a5aa;
+    border-radius: 100%;
+}
+
+.lastcontact .contact-me .fab{
+    height: 2em;
+    width: 2em;
+    color: #7f3a5f;
+    margin: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lastcontact .contact-me .fab:hover{
+    background-color: #7f3a5f;
+    color: #c9a5aa;
+    border-radius: 100%;
+}
