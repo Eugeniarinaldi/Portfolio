@@ -4,6 +4,7 @@
     display: inline-flex;
     flex-direction: row;
     margin-left: 5%;
+    margin-top: 5em;
     align-content: center;
     border: solid 0.1em #7f3a5f;
     border-radius: 0.8em;
@@ -15,9 +16,8 @@
     display: flexbox; 
     margin-top: 5em;
 }
-.write-me{
-    background-color: lightsalmon;   
-}
+
+/* Contactame  */
 
 .contact-me{
     display: inline-flex;
@@ -43,16 +43,32 @@
     
 }
 
-.lastcontact .contact-me a href{
+.lastcontact .contact-me a {
     height: 3em;
-    width: 3em;
+    width: 16em;
     background-color: cyan;
 }
 
-span{
-    background-color: blueviolet;
+
+.lastcontact .contact-me .fab{
+    height: 2rem;
+    width: 2em;
+    margin: 0.5em;
+    color: #7f3a5f;
 }
-.lastcontact .contact-me .fas{
+
+.lastcontact .contact-me .fab:hover{
+    background-color: #7f3a5f;
+    color: #c9a5aa;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dcd4d4;
+   
+}
+
+/* .lastcontact .contact-me .fas{
     height: 2em;
     width: 2em;
     color: #7f3a5f ;
@@ -61,7 +77,8 @@ span{
     justify-content: center;
     align-items: center;
 
-}
+} */
+/* 
 .lastcontact .contact-me .fas:hover{
     background-color: #7f3a5f;
     color: #c9a5aa;
@@ -72,14 +89,43 @@ span{
     height: 2em;
     width: 2em;
     color: #7f3a5f;
-    margin: 0em;
+    margin: 0.5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: crimson;
+    
 }
 
-.lastcontact .contact-me .fab:hover{
+.lastcontact a{
+    /* margin-left: 3em; */
+
+/* .lastcontact .contact-me .fab:hover{
     background-color: #7f3a5f;
     color: #c9a5aa;
     border-radius: 100%;
+}  */
+
+
+/*  Escribime Formulario */
+
+form .contact-form{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(51, 45, 45);
+    border: solid 1px black;
+    margin-bottom: 2em;
+}
+
+input{
+    height: 3em;
+    border-radius: 5%;
+    border-style: none;
+    background-color: rgb(218, 211, 250);
+}
+
+textarea{
+    border-radius: 5%;
+    border-style: none;
+    background-color: rgb(218, 211, 250);
 }

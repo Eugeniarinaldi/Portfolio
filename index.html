@@ -130,11 +130,15 @@
             <a name="proyectos"></a>
             <section class="Proyectos">
                 
-                    <h2>Mis Proyectos</h2>
-                </a>
-                <p>Durante mi cursada estaré desarrollando los siguientes proyectos.</p>
-               
-                <a href="#">
+                <h2 class="my-projects">Mis Proyectos</h2>
+                
+                <p class="description-projects">Durante mi cursada estaré desarrollando los siguientes proyectos.</p>
+             
+                
+
+            <article class="projects-box">
+
+                <a href="#"mi portafolio>
                     <!-- <img>SCREEN PORTFOlIO</img> -->
                     <p>Portfolio</p>
                 </a>
@@ -169,7 +173,7 @@
                     <p>Buscador de películas</p>
                 </a>
 
-
+            </article>
 
 
             </section>
@@ -185,25 +189,68 @@
                 <div class="contact-me">
                     <h2> Contactame </h2>
                     <p>Lorem ipsum dolor sit amet consectetur.</p>
-                    
+<!--                     
+                   <ul>
+                       <li class="socialmedia">
+                           <a href="https://github.com/Eugeniarinaldi"target="_blank">
+                           <i class="fab fa-github-alt">Eugerinaldi</i>
+                       </li>
+                       <li class="socialmedia">
+                           <a href="https://www.linkedin.com/in/mariaeugeniarinaldi/"target="_blank">
+                            <i class="fab fa-linkedin-in">mariaeugeniarinaldi</i>
+                       </li>
+                       <li>
+                        <a href="https://www.google.com/gmail/"target="_blank">
+                            <i class="fas fa-envelope">maeugenia.rinaldi@gmail.com</i>
+                       </li>
+                   </ul>  -->
+
+
+
                     <a href="https://github.com/Eugeniarinaldi"target="_blank">
-                        <i class="fab fa-github-alt"></i> 
-                        <span>Eugeniarinaldi</span>
+
+                        <i class="fab fa-github-alt"></i> Eugeniarinaldi
+                        <!-- <span> Eugeniarinaldi</span> -->
                     </a>
 
                     <a href="https://www.linkedin.com/in/mariaeugeniarinaldi/"target="_blank">
-                        <i class="fab fa-linkedin-in"></i> <span>mariaeugeniarinaldi</span>
+                        <i class="fab fa-linkedin-in"></i> mariaeugeniarinaldi
                     </a>
 
                     <a href="https://www.google.com/gmail/"target="_blank">
                         <i class="fas fa-envelope"></i>
-                        <span>maeugenia.rinaldi@gmail.com</span>
+                        maeugenia.rinaldi@gmail.com
                     </a>
                 </div>
 
+                <!-- formulario contacto -->
                 <div class="write-me">
-                <h2> Escribime </h2>
-                    <!-- <form> formulario de contacto </form> -->
+                    <h2> Escribime </h2>
+            
+                    <form class="contact-form">
+
+                        <div class="names">
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="Nombre" placeholder="Por ejemplo Ada" required="required"> 
+                            
+                            <label for="surname">Apellido:</label>
+                            <input type="text" surname="Apellido" placeholder="Por ejemplo Lovelace"> 
+                        </div>
+
+                        <div class="emails">
+                            <label for="email">Email:</label>
+                            <input type="email"Email="Email" placeholder="Email@gmail.com">
+                        </div>
+
+                        <div class="messages">       
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea name="write" placeholder="Escribí un mensaje aquí... :)" cols="50" rows="5"></textarea> 
+
+                        </div>
+
+                    </form>
+
+
                 </div>   
 
             </section>

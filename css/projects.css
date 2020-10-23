@@ -1,0 +1,35 @@
+/* .Proyectos{
+    margin-left: 5%;
+} */
+
+
+.Proyectos{
+    width: 90%;
+    height: auto;
+    margin: 5%;
+    /* display: flex; */
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.my-projects{
+    font-weight: 900;
+    font-size: 6vh;
+    color: rgb(17, 13, 62);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+.description-projects{
+    color: rgb(17, 13, 62);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.projects-box{
+    display: inline-block;
+    
+}
