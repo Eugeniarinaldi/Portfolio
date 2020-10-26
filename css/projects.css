@@ -2,15 +2,10 @@
     margin-left: 5%;
 } */
 
-
 .Proyectos{
     width: 90%;
     height: auto;
-    margin: 5%;
-    /* display: flex; */
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    margin: 7%;
 }
 
 .my-projects{
@@ -21,15 +16,24 @@
     justify-content: center;
     align-content: center;
     
-
 }
 .description-projects{
     color: rgb(17, 13, 62);
     margin-top: 5%;
     margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
+/* imagenes proyectos */
+
 .projects-box{
-    display: inline-block;
+    position: relative;
     
+   
+}
+
+.devicon-css3-plain-wordmark{
+    float: left;
 }

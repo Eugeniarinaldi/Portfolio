@@ -1,30 +1,32 @@
 /* Footer */
 
 footer{
-    height: 20em;
+    height: 22em;
     width: 100%;
     background-color: #7f3a5f;
+    flex-direction: column;
+    padding: 4em;  
     display: flex;
-    /* align-items: center; */
-    /* justify-items: center; */
-    /* justify-content: center; */
-    margin-top: 10em;
+    margin-top: 7em;
+    margin-bottom: 0em;
     
 } 
 
 /* last menu */
 
+.last-menu{
+    justify-items: center;
+    margin-left: 20em;
+}
 .last-menu a{
     width: 100%;
     text-transform: uppercase;
     color: #dcd4d4;
-   justify-items: center;
 }
 
 .last-menu a:hover{
     color: #f3e2e5;
 }
-
 
 
 /* social media */
@@ -33,7 +35,8 @@ footer{
     height: 18%;
     display: flex;
     /* justify-content: center; */
-    margin-top: 7em;
+    margin-top: 4em;
+    margin-left: 29em;
     font-size: 1em;
 
 }
@@ -74,13 +77,8 @@ footer .fab:hover{
 
 footer .made-by{
     height: 20px;
+    width: 16em;
     color: #dcd4d4;
-    margin-top: 15em;
-    display: flex;
-    margin-right: 10em;
-    justify-content: center;
-   
-    /* margin-right: 50%; */
-    /* justify-self: center ; */
-    /* no logro centrar la frase */
+    margin: 3em 28em;
+
 }

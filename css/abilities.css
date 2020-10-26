@@ -1,4 +1,4 @@
-/* habulidades */
+/* habilidades */
 
 
 .habilidades{
@@ -25,10 +25,7 @@
     color: rgb(17, 13, 62);
     margin: 0;
     text-align: center;
-    /* display: flex; */
-    /* align-self: center; */
-    /* justify-self: center; */
-    /* text-align: center; */
+
 }
 
 .text{

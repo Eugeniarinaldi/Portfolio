@@ -2,7 +2,7 @@
 .presentacion{
     width: 90%;
     height: 500px;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-top: 280px;
     display: flexbox;    
 }
@@ -10,6 +10,7 @@
     font-size: 30px;
     color: rgb(17, 13, 62);
     font-weight: 600;
+    margin-bottom: 0.8em;
 }
 h1{
     color: #7f3a5f;
@@ -17,7 +18,7 @@ h1{
 }    
 .descripcion{
     color: rgb(17, 13, 62);
-    font-size: 15px;
+    font-size: 2.5vh;
     margin-top: 25px;
     display: flex;
 }
@@ -31,10 +32,9 @@ h1{
     font-weight: 600;
     background-color: #dab2b8;
     display: flex;
-    justify-content: center;
+    justify-items: center;
     align-items: center;
     text-align: center;
-    padding: auto;
     
 }
 

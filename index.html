@@ -35,7 +35,9 @@
                 </li>
 
                 <li class="contact">
-                    <a href="#contacto">CONTACTO</a>
+                    <a href="#contacto">
+                        CONTACTO
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -52,7 +54,10 @@
                 <p class="hola">¡Hola! Soy </p>
                 <h1>María Eugenia Rinaldi</h1>
                 <p class="descripcion"> Desarrolladora FrontEnd, Aeronáutica y Agente de Viajes</p>
-                <p class="quehago"><a href="#proyectos">LO QUE HAGO</a>
+                <p class="quehago"> 
+                    <botton>
+                        <a href="#proyectos"></a>LO QUE HAGO
+                    </botton>
                 </p> 
             </div>
 
@@ -139,7 +144,7 @@
             <article class="projects-box">
 
                 <a href="#"mi portafolio>
-                    <!-- <img>SCREEN PORTFOlIO</img> -->
+                    <img src="img/portafolio-img.jpg"height="30%" width="30%">
                     <p>Portfolio</p>
                 </a>
 
@@ -188,39 +193,22 @@
                 
                 <div class="contact-me">
                     <h2> Contactame </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur.</p>
-<!--                     
-                   <ul>
-                       <li class="socialmedia">
-                           <a href="https://github.com/Eugeniarinaldi"target="_blank">
-                           <i class="fab fa-github-alt">Eugerinaldi</i>
-                       </li>
-                       <li class="socialmedia">
-                           <a href="https://www.linkedin.com/in/mariaeugeniarinaldi/"target="_blank">
-                            <i class="fab fa-linkedin-in">mariaeugeniarinaldi</i>
-                       </li>
-                       <li>
-                        <a href="https://www.google.com/gmail/"target="_blank">
-                            <i class="fas fa-envelope">maeugenia.rinaldi@gmail.com</i>
-                       </li>
-                   </ul>  -->
-
+                    <p>Cualquier consulta o sugerencia, escribime</p>
 
 
                     <a href="https://github.com/Eugeniarinaldi"target="_blank">
-
-                        <i class="fab fa-github-alt"></i> Eugeniarinaldi
-                        <!-- <span> Eugeniarinaldi</span> -->
+                        <i class="fab fa-github-alt"></i> <span>Eugeniarinaldi</span>
+                
                     </a>
 
                     <a href="https://www.linkedin.com/in/mariaeugeniarinaldi/"target="_blank">
-                        <i class="fab fa-linkedin-in"></i> mariaeugeniarinaldi
+                        <i class="fab fa-linkedin-in"></i> <span>mariaeugeniarinaldi</span>
                     </a>
 
                     <a href="https://www.google.com/gmail/"target="_blank">
-                        <i class="fas fa-envelope"></i>
-                        maeugenia.rinaldi@gmail.com
+                        <i class="fas fa-envelope"></i> <span class="mail-fas">maeugenia.rinaldi@gmail.com</span>
                     </a>
+                    
                 </div>
 
                 <!-- formulario contacto -->
@@ -230,23 +218,23 @@
                     <form class="contact-form">
 
                         <div class="names">
-                            <label for="name">Nombre:</label>
-                            <input type="text" name="Nombre" placeholder="Por ejemplo Ada" required="required"> 
+                            <label for="name">Nombre*</label>
+                            <input type="text" name="Nombre" required placeholder="Por ejemplo Ada" required="required"> 
                             
-                            <label for="surname">Apellido:</label>
-                            <input type="text" surname="Apellido" placeholder="Por ejemplo Lovelace"> 
+                            <label for="surname">Apellido*</label>
+                            <input type="text" surname="Apellido" required placeholder="Por ejemplo Lovelace"> 
                         </div>
 
                         <div class="emails">
-                            <label for="email">Email:</label>
-                            <input type="email"Email="Email" placeholder="Email@gmail.com">
+                            <label for="email">Email*</label>
+                            <input type="email"Email="Email" required placeholder="Email@gmail.com">
                         </div>
 
                         <div class="messages">       
-                            <label for="mensaje">Mensaje:</label>
-                            <textarea name="write" placeholder="Escribí un mensaje aquí... :)" cols="50" rows="5"></textarea> 
-
+                            <label for="mensaje">Mensaje*</label>
+                            <textarea name="write" placeholder="Escribí un mensaje aquí... :)" cols="56" rows="6"></textarea> 
                         </div>
+                        <button type="submit">Enviar</button>
 
                     </form>
 
@@ -280,7 +268,8 @@
             <a href="https://www.google.com/gmail/"target="_blank">
                 <i class="fas fa-envelope"></i></a>
         </div>
-        <p class="made-by">Hecho con ❤️ por Euge Rinaldi</p>
+
+        <div class="made-by">Hecho con ❤️ por Euge Rinaldi</div>
 
     </footer>
         <!-- FIN FOOTER -->
