@@ -28,12 +28,40 @@
 
 /* imagenes proyectos */
 
-.projects-box{
-    position: relative;
-    
-   
+.projects-box a img{
+    height: auto;
+    width: 25vw;
 }
 
-.devicon-css3-plain-wordmark{
-    float: left;
+.projects-box a{
+    border: solid 0.1em rgb(199, 199, 199);
+    border-radius: 7px;
+    margin-bottom: 4%;
 }
+
+.projects-box a:hover{
+    border: solid 0.12em #7f3a5f;
+}
+
+.projects-box{
+    position: relative;
+    display: flex;
+    align-self: flex-end;
+    justify-self: center;
+    flex-wrap: wrap;
+    margin-left: 4%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.projects-box a figcaption{
+    height: auto;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(17, 13, 62);
+    font-weight: 500;
+    margin-bottom: 2em;
+}
+ 
