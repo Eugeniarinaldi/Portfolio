@@ -1,3 +1,4 @@
+/* Seccion cita */
 
 .cita{
     height:75vh;
@@ -6,7 +7,7 @@
     background-color: #7f3a5f;
     display: flex;
     align-items: center;
-    justify-items: center;
+    justify-content: center;
 
 }
 
@@ -14,41 +15,45 @@
     width: 60%;
     height: 20%;
     position: absolute;
-    margin-bottom: 12%;
     color: #dab2b8;
+    font-style: oblique;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     font-weight: 600;
-    margin-top: 17%;
-    margin-left: 18%;
-    line-height: 1.7;
-    font-size: 110%;
+    font-size: 1.3em;
+    line-height: 2em;
+}
+.frase:hover{
+    color: #f0d4d8;
+    font-weight: 800;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+    transform: scale(1.2);
 
 }
+
 .autor{
     position: absolute;
-    width: 30%;
-    /* margin-right: 70%; */
+    width: 100%;
     color: #dab2b8;
     align-self: flex-end;
     text-align: center;
-    margin-left: 35%;
-    margin-bottom: 6%;
-    /* justify-items: center; */
-   
+    margin-bottom: 3em;       
+}
+.autor:hover{
+    color: #f0d4d8;
+    font-weight: 800;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
 }
 
-.fa-quote-right{
-    position: relative;
+.cita .fas{
     height:17%;
-    width: 15%;
+    width: 100%;
     font-size: 80px;
+    display: flex;
+    margin-bottom: 4.5em;
     color: #dab2b8;
-    margin-bottom: 20%;  
-    margin-left: 45%;  
-   
-    
-    
 }

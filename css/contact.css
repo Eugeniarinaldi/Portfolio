@@ -4,10 +4,11 @@
     display: inline-flex;
     flex-direction: row;
     margin-left: 5%;
-    margin-top: 5em;
+    margin-top: 7em;
     align-content: center;
     border: solid 0.1em #7f3a5f;
     border-radius: 0.8em;
+
 }
 
 /* Contactame  */
@@ -38,24 +39,23 @@
 /* redes sociales */
 
 .lastcontact .contact-me a {
-    height: 4em;
-    width: 20em;
+    height: 2.5em;
+    width: 25em;
     display: inline-flex;
     flex-direction: row;
-    margin-top: 1em;
-}
-
-.lastcontact .contact-me a span{
-    margin-top: 2.2em;
+    margin-top: 2em;
+    align-items: center;
 }
 
 .lastcontact .contact-me a:hover{
     color: #7f3a5f;
     font-weight: 600;
+    transition:all .5s ease-in-out;
 }
 
 
-.lastcontact .contact-me .fab{
+.lastcontact .contact-me .fab,
+.fas{
     height: 1.5em;
     width: 1.5em;
     margin: 1em;
@@ -66,38 +66,34 @@
     justify-content: center;
     align-items: center;
 }
-.mail-fas{
-    margin-left: 1em;
-}
 
-.lastcontact .contact-me .fab:hover{
+.lastcontact .contact-me .fab:hover, .fas:hover{
     background-color: #7f3a5f;
     border-radius: 100%;
-    color:#c9a5aa ;
-    
+    color:#c9a5aa ; 
+    transition:all .5s ease-in-out;
 }
 
-.lastcontact .contact-me .fas{
+/* .lastcontact .contact-me .fas{
     height: 1.5em;
-    width: 1em;
+    width: auto;
     margin: 1em;
+    margin-left: 1.3em;
     font-size: 1.6em;
     color: #7f3a5f;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 
-    
-}
+} */
    
-.lastcontact .contact-me .fas:hover{
+/* .lastcontact .contact-me .fas:hover{
     background-color: #7f3a5f;
-    border-radius: 100%;
-    color:#c9a5aa;
+    /* border-radius: 100%; */
+    /* color:#c9a5aa;
 
-}
+} */ */
 
 
 /*  Escribime Formulario */
