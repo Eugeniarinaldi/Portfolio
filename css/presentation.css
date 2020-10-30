@@ -32,10 +32,24 @@ h1{
     font-weight: 600;
     background-color: #dab2b8;
     display: flex;
-    justify-items: center;
-    align-items: center;
-    text-align: center;
     
+}
+.quehago botton{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    
+}
+.quehago a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-left: 1.2em;
+  
 }
 
 .quehago:hover{
