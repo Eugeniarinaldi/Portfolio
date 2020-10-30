@@ -60,6 +60,7 @@ footer .fas:hover{
     background-color: #7f3a5f;
     color: #dab2b8;
     border: solid 0.1em #dab2b8;
+    transition:all .5s ease-in-out;
 }
 
 footer .fab{
@@ -70,12 +71,15 @@ footer .fab{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 footer .fab:hover{
     background-color: #7f3a5f;
     color: #dab2b8;
     border: solid 0.1em #dab2b8;
+    transition:all .5s ease-in-out;
+    
 }
 
 
