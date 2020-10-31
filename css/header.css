@@ -65,12 +65,10 @@ header, .indice, a{
     align-items: center;
     padding: 4%;
     color: rgb(17, 13, 62);
-   
 }
-
-
 
 .contact:hover{
     background-color:#f3e2e5;
 }
 
+/* responsivo */
