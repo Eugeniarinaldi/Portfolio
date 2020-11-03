@@ -71,6 +71,7 @@
 .skill:hover{
     /* background-color:rgb(172, 172, 172); */
     border: ridge 2px rgb(196, 196, 196);
+    box-shadow: 5px 5px 10px rgb(196, 196, 196);
 }
 
 .colored{
@@ -84,3 +85,26 @@
     color: rgb(68, 68, 68);
 }
 
+/* RESPONSIVE */
+
+@media(max-width:800px) and (min-width: 320px){
+    .habilidades{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .introconocimientos{
+        flex-direction: column;
+        align-content: space-around;
+        position: relative;
+    }
+
+    .lenguajes{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+  
+}    

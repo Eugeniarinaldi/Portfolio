@@ -64,9 +64,10 @@ h1{
 }
 .fotperfil{
     display: flex;
+    height: auto;
+    width: 100%;
     justify-content: flex-end;
     margin-top: -50vh;
-  
 
 }
 
@@ -79,21 +80,24 @@ h1{
         flex-direction: column;
         width: auto;
         align-items: center;
-        justify-content: center;
+        justify-items: center;
     }
     .intro{
         flex-direction: column;
         height: auto;
     }
     .quehago{
-        width: auto;
+        width: 100%;
+        margin-top: 10vh;
+
     }
 
-    .fotperfil{
-        flex-direction: column;
-        height: auto;
-        width: auto;
- 
+    .fotperfil img{
+       height: auto;
+       width: 100%;
+        margin-top: 55vh;
+        justify-content: center;
+        align-self: center;
     } 
     
  }    

@@ -4,11 +4,11 @@
     display: inline-flex;
     flex-direction: row;
     margin-left: 5%;
-    margin-top: 7em;
+    margin-top: 6em;
     align-content: center;
     border: solid 0.1em #7f3a5f;
     border-radius: 0.8em;
-
+   
 }
 
 /* Contactame  */
@@ -16,8 +16,9 @@
 .contact-me{
     display: inline-flex;
     flex-direction: column;
+    
 }
-.lastcontact div h2{
+.lastcontact article h2{
     width: 100%;
     height: 10%;
     font-weight: 900;
@@ -27,7 +28,7 @@
     text-align: center;
 }
 
-.lastcontact div p{
+.lastcontact article p{
     width: 40vw;
     height: 10vh;
     font-size: 2.5vh;
@@ -130,6 +131,12 @@ input{
     border-style: none;
     background-color: rgb(236, 232, 255);
     padding: 1em;
+    box-shadow: 5px 5px 10px #c9a5aa;
+}
+input:focus{
+    color: rgb(17, 13, 62);
+    border-radius: 3em;
+    border: thin 0.5em rgb(208, 208, 208);
 }
 
 
@@ -150,10 +157,12 @@ input{
     padding-bottom: 0.5em;
 }
 textarea{
+    color: rgb(17, 13, 62);
     border-radius: 1em;
     border-style: none;
     background-color: rgb(236, 232, 255);
     padding: 1em;
+    box-shadow: 5px 5px 10px #c9a5aa;
 }
 
 .messages label{
@@ -182,3 +191,5 @@ textarea{
     cursor: pointer;
     
 }
+
+/* :focus y box shadow para modificar borde de input OUTLINE */

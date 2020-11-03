@@ -38,6 +38,9 @@
     border-radius: 7px;
     margin-bottom: 4%;
     transition: transform 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .projects-box a:hover{
@@ -46,6 +49,7 @@
 
 .projects-box a:hover{
     transform: scale(1.1);
+    box-shadow: 5px 5px 10px #c9a5aa;
 }
 
 
@@ -58,6 +62,7 @@
     margin-left: 4%;
     margin-top: 7%;
     margin-bottom: 4%;
+    
 }
 
 
