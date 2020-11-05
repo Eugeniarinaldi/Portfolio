@@ -89,34 +89,62 @@
 
 @media(max-width:800px) and (min-width: 320px){
     .habilidades{
-        margin-bottom: 4em;
-        display:flex;
-        flex-direction: column;
-    
-    }
-
-    .introconocimientos{
-        margin-top: 1em;
-        flex-direction: column;
-        align-content: space-around;
-        position: absolute;
-        
-    }
-
-    .lenguajes{
+        height: auto;
+        width: 400px;
+        margin-top: 25rem;
+        align-content: center;
+        justify-items: center;
         align-items: center;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-        margin-top: 40em;
-      
-        align-self: column;
+    }
+
+    .introconocimientos h2{
+        width: 80%;
+        font-size: 1.5rem;
+        align-self: center;
+        margin-bottom: 30px;
+    }
+
+    .introconocimientos p{
+        width: 80%;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 20px;
+
+    } 
+
+    .lenguajes{
+        display: flex;
+        height: 100px;
+        width: auto;
+        position: relative;
+        flex-flow: row wrap;
+        box-sizing: border-box;
+        align-content: center;
+        margin-top: 80px;
+        margin-left: 20px;
+        margin-bottom: 90px;
     }
 
     .skill{
-        height: 10em;
-        width: 10em;
+        height: 100px;
+        width: 100px;
+        
     }
 
 
-  
+    .skill p{
+        font-size: 20px;
+        
+    }
+    .skill i{
+        font-size: 40px;
+    }
+
+    .skill .language{
+        font-size: 12px;
+    }
 }    
+

@@ -57,3 +57,25 @@
     margin-bottom: 4.5em;
     color: #dab2b8;
 }
+
+/* Responsive */
+
+@media(max-width:850px){
+
+    .cita{
+        width: 400px;
+    }
+    .cita i{
+        font-size: 3rem;
+    }
+
+    .cita .frase{
+        font-size: 1rem;
+        margin-top: 3rem;
+    }
+
+    .cita h2{
+        font-size: 1rem;
+    }
+
+}

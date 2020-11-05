@@ -1,13 +1,13 @@
 /* Presentacion */
 .presentacion{
     width: 90%;
-    height: 500px;
+    height: 31.25rem;
     margin-left: 7%;
     margin-top: 10em;
     display: flexbox;    
 }
 .hola{
-    font-size: 30px;
+    font-size: 1.875rem;
     color: rgb(17, 13, 62);
     font-weight: 600;
     margin-bottom: 0.8em;
@@ -19,7 +19,7 @@ h1{
 .descripcion{
     color: rgb(17, 13, 62);
     font-size: 2.5vh;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     display: flex;
 }
 .quehago{
@@ -74,33 +74,56 @@ h1{
 /* RESPONSIVO */
 
  
- @media(max-width:800px) and (min-width: 320px){
+ @media(max-width:800px) and (min-width: 280px){
     .presentacion{
-        height: 20em;
+        height: 13em;
         display: flex;
         flex-direction: column;
+        align-items: center; 
+        margin-top: 2rem;
     
     }
-    .intro{
+       .intro{
         flex-direction: column;
         height: auto;
-        
     }
 
-    .quehago{
-        width: 100%;
-        margin-top: 10vh;
+      .intro p{
+        font-size: 0.875rem;
+        flex-direction:column ;
+    }
+    
+        .intro h1, p, .descripcion{
+            font-size: 1.875rem;
+            text-align: center;
+        }
+
+    .quehago {
+        width: 10rem;
+        height: 2.5rem;
+        margin-top: 50vh;
+        font-size: 10px;
+        align-self: center;
+        
+       
+    } 
+
+    .quehago a{
+        font-size: 0.625rem;
+        text-align: center;
+        justify-content: center;
 
     }
 
     .fotperfil img{
        height: auto;
-       width: 100%;
-        margin-top: 55vh;
-        justify-content: center;
+       width: 95%;
+        margin-top: 22vh;
+        justify-items: center;
         align-self: center;
         position: absolute;
-    } 
+        flex-flow: column nowrap;
+    }  
 
     
  }    
