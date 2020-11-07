@@ -6,6 +6,7 @@
     height: 100vh;
     position: relative;
     margin: 5%;
+    margin-top: 0.5rem;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -87,13 +88,41 @@
 
 /* RESPONSIVE */
 
+
+@media(max-width:1200px)and (min-width:800px){
+    .habilidades{
+        margin-top: 36rem;
+        height: 43.75rem;
+    }
+    .introconocimientos p{
+        margin-top: 1rem;
+        width: 90%;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .introconocimientos h2{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .lenguajes{
+        height: auto;
+        margin-top: 80px; 
+       
+      
+        
+    }
+
+}
+
+
+
 @media(max-width:800px) and (min-width: 320px){
     .habilidades{
         height: auto;
         width: 400px;
-        margin-top: 25rem;
-        align-content: center;
-        justify-items: center;
+        margin-top: 35rem;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
@@ -104,14 +133,16 @@
         width: 80%;
         font-size: 1.5rem;
         align-self: center;
-        margin-bottom: 30px;
-    }
+    
+        }
 
     .introconocimientos p{
         width: 80%;
         font-size: 1rem;
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
+        margin-top: 1.25rem;
+        
 
     } 
 
@@ -125,7 +156,7 @@
         align-content: center;
         margin-top: 80px;
         margin-left: 20px;
-        margin-bottom: 90px;
+        margin-bottom: 80px;
     }
 
     .skill{

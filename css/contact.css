@@ -174,7 +174,7 @@ textarea{
     border-style: none;
     margin: 10px;
     margin-top: 2em;
-    padding-left: 2.5em;
+    justify-content: center;
 
    
 }
@@ -185,3 +185,54 @@ textarea{
 }
 
 /* :focus y box shadow para modificar borde de input OUTLINE */
+
+
+/* Ajustes responsive */
+
+@media(max-width:1200px)and (min-width:800px){
+    .lastcontact{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-flow: column nowrap;
+        margin: auto;
+    }
+
+    .lastcontact .contact-me h2, 
+    .lastcontact .write-me h2{
+            margin-top: auto;
+            font-size: 2.5rem;
+    }
+
+    .lastcontact .contact-me p{
+        font-size: 1.8rem;
+        width: auto;
+       margin-bottom: 2px;
+    }
+
+    .contact-me a{
+        display: flex;
+        font-size: 1.5rem;
+        margin-top: 0%;
+    }
+
+    .write-me{
+        margin: 2rem
+    }
+
+    .contact-form button{
+        width: auto;
+        /* justify-content: center; */
+    }
+
+}
+
+@media(max-width:800px) and (min-width: 320px){
+    .lastcontact{
+        width: 100%;
+        display:flex;
+        flex-flow: column nowrap;
+        position: relative;
+    }
+   
+}

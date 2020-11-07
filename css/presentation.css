@@ -73,14 +73,49 @@ h1{
 
 /* RESPONSIVO */
 
+@media(max-width:1200px)and (min-width:800px){
+    .presentacion{
+        width: 100%;
+        height: 40em;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 4rem;
+        align-items: center;
+    } 
+    
+    .fotperfil img{
+        height: auto;
+        width: 95%;
+         margin-top: 80vh;
+         justify-content: center;
+         align-self: center;
+         position: absolute;
+         flex-flow: column nowrap;
+     }  
+         
+     .quehago {
+        width: 45%;
+        position: absolute;
+        margin-top: 50rem;
+        display: flex;
+        justify-self: center;
+
+        
+       
+    } 
+}
+
+
  
  @media(max-width:800px) and (min-width: 280px){
     .presentacion{
-        height: 13em;
+        height: 14em;
         display: flex;
         flex-direction: column;
         align-items: center; 
         margin-top: 2rem;
+        max-width: 100%;
     
     }
        .intro{
@@ -99,13 +134,12 @@ h1{
         }
 
     .quehago {
-        width: 10rem;
+        width: auto;
         height: 2.5rem;
-        margin-top: 50vh;
-        font-size: 10px;
-        align-self: center;
+        margin-top: 49vh;
+        font-size: 0.625rem;
+        justify-self: center;
         
-       
     } 
 
     .quehago a{
@@ -118,7 +152,7 @@ h1{
     .fotperfil img{
        height: auto;
        width: 95%;
-        margin-top: 22vh;
+        margin-top: 21vh;
         justify-items: center;
         align-self: center;
         position: absolute;

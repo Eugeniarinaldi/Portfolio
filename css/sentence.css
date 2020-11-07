@@ -62,8 +62,17 @@
 
 @media(max-width:850px){
 
+    /* .cita .frase{
+        font-size: 5rem;
+        margin-top: 5rem;
+    } */
+
+}
+
+@media(max-width:850px){
+
     .cita{
-        width: 400px;
+        width: auto;
     }
     .cita i{
         font-size: 3rem;
