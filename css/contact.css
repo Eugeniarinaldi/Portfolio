@@ -11,6 +11,7 @@
     border-radius: 0.8em;  
     padding-top: 1em;
     box-shadow: 5px 5px 10px #c9a5aa; 
+    background-color: #e9e2e2;
 }
 
 /* Contactame  */
@@ -223,7 +224,7 @@ textarea:focus{
 
 @media(max-width:800px) and (min-width: 320px){
     .lastcontact{
-        width: 95%;
+        width: 100%;
         height: auto;
         display:flex;
         flex-flow: column nowrap;
