@@ -86,8 +86,8 @@ h1{
     
     .fotperfil img{
         height: auto;
-        width: 95%;
-         margin-top: 80vh;
+        width: 90%;
+         margin-top: 90vh;
          justify-content: center;
          align-self: center;
          position: absolute;
@@ -97,18 +97,75 @@ h1{
      .quehago {
         width: 45%;
         position: absolute;
-        margin-top: 50rem;
+        margin-top: 45rem;
         display: flex;
         justify-self: center;
-
-        
+        align-content: center;
+   
        
     } 
 }
 
+ @media(max-width:800px)and (min-width:600px) {
+     
+    .presentacion{
+        height: 14em;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-top: 2rem;
+        max-width: 100%;
+    
+    }
+       .intro{
+        flex-direction: column;
+        height: auto;
+    }
+
+      .intro p{
+        font-size: 0.875rem;
+        flex-direction:column ;
+    }
+    
+        .intro h1, p, .descripcion{
+            font-size: 1.875rem;
+            text-align: center;
+        }
+
+    .quehago {
+        width: 50%;
+        height: 2.5rem;
+        margin-top: 70vh;
+        font-size: 0.625rem;
+        justify-self: center;
+        position: absolute;
+        
+    } 
+
+    .quehago a{
+        font-size: 0.625rem;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .fotperfil img{
+       height: auto;
+       width: 90%;
+        margin-top: 82vh;
+        justify-items: center;
+        align-self: center;
+        position: absolute;
+        flex-flow: column nowrap;
+    }  
+
+
+
+}
+
 
  
- @media(max-width:800px) and (min-width: 280px){
+ @media(max-width:600px) and (min-width: 280px){
     .presentacion{
         height: 14em;
         display: flex;
