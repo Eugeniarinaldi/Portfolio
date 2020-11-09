@@ -25,7 +25,7 @@
 }
 .quehago{
     height: 8vh;
-    width: 16vw;
+    width: 15vw;
     margin-top: 10%;
     border-radius: 30px;
     color: rgb(17, 13, 62);;
@@ -123,7 +123,8 @@
         left: 0;
         right: 0;
         bottom: 0;
-        margin: 66vh auto;
+        margin: auto;
+        margin-top: 47rem;
         
     } 
 
@@ -191,7 +192,8 @@
         left: 0;
         right: 0;
         bottom: 0;
-        margin: 60vh auto;
+        margin: auto;         
+        margin-top: 47rem;
         
     } 
 
@@ -212,7 +214,7 @@
        width: 80%;
         justify-items: center;
         position: absolute;
-        margin: 25vh auto;
+        margin: 30vh auto;
         top: 0;
         left: 0;
         right: 0;
@@ -250,7 +252,7 @@
     .quehago {
         width: auto;
         height: 2.5rem;
-        margin-top: 20rem;
+        margin-top: 23rem;
         font-size: 0.625rem;
         justify-self: center;
         position: relative;
@@ -268,7 +270,7 @@
     .fotperfil img{
        height: auto;
        width: 95%;
-        margin-top: 20vh;
+        margin-top: 9vh;
         justify-items: center;
         align-self: center;
         position: relative;
