@@ -233,7 +233,7 @@ textarea:focus{
 
 }
 
-@media(max-width:800px) and (min-width: 320px){
+@media(max-width:800px) and (min-width: 270px){
     .lastcontact{
         width: 100%;
         height: auto;

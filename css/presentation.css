@@ -231,7 +231,7 @@
     }  
 }
  
- @media(max-width:550px) and (min-width: 280px){
+ @media(max-width:550px) and (min-width: 270px){
     .presentacion{
         height: 14em;
         display: flex;
