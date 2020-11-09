@@ -2,7 +2,7 @@
 
 
 .habilidades{
-    width: 90%;
+    width: 80%;
     height: 100vh;
     position: relative;
     margin: 5%;
@@ -118,7 +118,8 @@
 
 @media(max-width:800px) and (min-width: 600px){
     .introconocimientos{
-        margin-top: 10rem;
+        margin-top: 2rem;
+        
     }
 
     .habilidades{
