@@ -60,7 +60,7 @@
 
 /* Responsive */
 
-@media(max-width:1520px){
+@media(max-width:1100px){
 
     .cita .frase{
         font-size: 2rem;
@@ -102,4 +102,6 @@
     .cita .frase{
         font-size: 1.1rem;
     }
+
+}
 

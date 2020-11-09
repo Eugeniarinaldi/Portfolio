@@ -76,14 +76,20 @@ header, .indice, a{
 
 /* responsivo */
 
-@media(max-width:1550px){
+@media(max-width:1200px)and (min-width:1100px){
   .contact{
     height: 5vh;
     width: 15vh; 
   }
+
+  .first{
+     position: relative;
+     margin: auto;
+    
+  }
 }
 
-@media(max-width:1300px) and (min-width:800px){
+@media(max-width:1100px) and (min-width:800px){
     .indice{
         display: none;
     }

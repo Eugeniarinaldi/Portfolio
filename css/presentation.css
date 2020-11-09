@@ -71,7 +71,7 @@
 
 /* RESPONSIVO */
 
-@media(max-width:1520px)and (min-width:1300px){
+@media(max-width:1200px)and (min-width:1100px){
     .fotperfil{
         height: auto;
         width: 90%;
@@ -85,7 +85,7 @@
     }
 }   
 
-@media(max-width:1300px)and (min-width:800px){
+@media(max-width:1100px)and (min-width:800px){
     
 
     .presentacion{
