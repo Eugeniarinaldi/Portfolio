@@ -184,25 +184,26 @@ textarea:focus{
 
 /* Ajustes responsive */
 
-@media(max-width:1200px)and (min-width:800px){
+@media(max-width:1520px)and (min-width:800px){
     .lastcontact{
-        width: 90%;
-        height: auto;
+        width: 75%;
+        height: 100%;
         display: flex;
         flex-flow: column nowrap;
         margin: auto;
+    
     }
 
     .lastcontact .contact-me h2, 
     .lastcontact .write-me h2{
-            margin-top: auto;
-            font-size: 2.5rem;
+            margin-top: 2.5rem;
+            font-size: 2.6rem;
     }
 
     .lastcontact .contact-me p{
         font-size: 1.8rem;
         width: auto;
-       margin-bottom: 2px;
+       margin-bottom: 0.125rem;
     }
 
     .contact-me a{

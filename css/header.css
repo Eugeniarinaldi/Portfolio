@@ -40,18 +40,15 @@ header, .indice, .first a:hover{
     color: #f3e2e5;
 }
 
-
 ul{
    display: flex;
    margin-left: 50%;
-
 }
 
 header, .indice, a{ 
     text-decoration: none;
     color: rgb(17, 13, 62);
-    margin-right:35px;
-    /* justify-content: flex-end */
+    margin-right:2.1875rem;
     justify-content: right;
 }
 
@@ -63,9 +60,14 @@ header, .indice, a{
     border-radius: 30vh;
     display: flex;
     align-items: center;
-    padding: 4%;
+    justify-content: center;
     color: rgb(17, 13, 62);
 }
+
+.contact a{
+    margin: 0;
+}
+
 
 .contact:hover{
     background-color:#f3e2e5;
@@ -74,13 +76,14 @@ header, .indice, a{
 
 /* responsivo */
 
-@media(max-width:1200px){
-.respmenu nav {
-    display: list-item;
+@media(max-width:1550px){
+  .contact{
+    height: 5vh;
+    width: 15vh; 
   }
 }
 
-@media(max-width:1200px) and (min-width:800px){
+@media(max-width:1300px) and (min-width:800px){
     .indice{
         display: none;
     }

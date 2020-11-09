@@ -89,51 +89,101 @@
 /* RESPONSIVE */
 
 
-@media(max-width:1200px)and (min-width:800px){
+/* @media(max-width:1520px)and (min-width 1200){
+    .conocimientos{
+        font-size: 1rem;
+    }
+
+}     */
+
+@media(max-width:1520px)and (min-width:800px){
     .habilidades{
-        margin-top: 36rem;
+        margin-top: 45rem;
+        margin-left: 4rem;
         height: 43.75rem;
     }
+
+    .introconocimientos{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
     .introconocimientos p{
-        margin-top: 1rem;
-        width: 90%;
+        margin-top: 1.2rem;
+        width: 100%;
         font-size: 1.8rem;
         text-align: center;
     }
 
     .introconocimientos h2{
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         text-align: center;
     }
 
     .lenguajes{
         height: auto;
-        margin-top: 80px; 
-       
-      
+        margin-top: 70px; 
         
     }
+
+    .lenguajes p{
+        font-size: 1rem;
+    }
+
 
 }
 
 @media(max-width:800px) and (min-width: 600px){
-    .introconocimientos{
-        margin-top: 2rem;
-        
-    }
+
 
     .habilidades{
+        height: 600px;
+        width: 90%;
+        margin-top: 40rem;
         display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
+        justify-content: center;
+
+    
+    } 
+    .skill{
+        height: 9rem;
+        width: 9rem;
+       
+    }
+
+    .skill i{
+        font-size: 3.2rem;
+    }
+
+    .skill .language{
+        font-size: 1rem;
+    }
+
+
+
+    .lenguajes{
+        width: 100%;
+    }
+    .introconocimientos .conocimientos{
+        margin-top: 1rem;
+        font-size: 2rem;
+    } 
+
+    .introconocimientos .text{
+        font-size: 1.6rem;
+        width: 100%;
     }
 }    
 
-@media(max-width:800px) and (min-width: 320px){
+@media(max-width:600px) and (min-width: 320px){
     .habilidades{
         height: auto;
         width: 100%;
-        margin-top: 28rem;
+        margin-top: 30rem;
         align-items: center;
         display: flex;
         flex-wrap: wrap;
@@ -141,7 +191,14 @@
         align-items: center;
     }
 
+    .introconocimientos{
+        margin-top: 5rem;
+    }
 
+
+    .lenguajes{
+        margin-top: -10rem;
+    }
     .introconocimientos h2{
         width: 100%;
         font-size: 1.5rem;
