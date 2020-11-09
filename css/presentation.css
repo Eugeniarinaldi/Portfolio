@@ -123,7 +123,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        margin: 76vh auto;
+        margin: 66vh auto;
         
     } 
 
@@ -146,14 +146,6 @@
         justify-items: center;
         align-self: center;
         position: relative;
-
-        /* position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin: 55vh auto; */
-
         flex-flow: column nowrap;
         max-height: 60%;
         max-width: 60%;
@@ -192,7 +184,6 @@
     .quehago {
         width: 30%;
         height: 2.5rem;
-        margin-top: 40vh;
         font-size: 0.625rem;
         justify-self: center;
         position: absolute;
@@ -200,7 +191,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        margin: 69vh auto;
+        margin: 60vh auto;
         
     } 
 
@@ -218,10 +209,10 @@
 
     .fotperfil img{
        height: auto;
-       width: 82%;
+       width: 80%;
         justify-items: center;
         position: absolute;
-        margin: 28vh auto;
+        margin: 25vh auto;
         top: 0;
         left: 0;
         right: 0;
@@ -259,7 +250,7 @@
     .quehago {
         width: auto;
         height: 2.5rem;
-        margin-top: 33vh;
+        margin-top: 20rem;
         font-size: 0.625rem;
         justify-self: center;
         position: relative;
@@ -270,13 +261,14 @@
         font-size: 0.625rem;
         text-align: center;
         justify-content: center;
+       
 
     }
 
     .fotperfil img{
        height: auto;
        width: 95%;
-        margin-top: 18vh;
+        margin-top: 20vh;
         justify-items: center;
         align-self: center;
         position: relative;
