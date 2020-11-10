@@ -1,7 +1,5 @@
-/* .Proyectos{
-    margin-left: 5%;
-} */
-
+/* Proyectos */
+    
 .Proyectos{
     width: 90%;
     height: auto;
@@ -26,7 +24,7 @@
     align-content: center;
 }
 
-/* imagenes proyectos */
+/* Estilos imagenes proyectos */
 
 .projects-box a img{
     height: auto;
@@ -66,7 +64,7 @@
 }
 
 
-figcaption{
+.project-name{
     display: flex;
     justify-content: center;
     margin-bottom: 2em;

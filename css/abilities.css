@@ -1,5 +1,4 @@
-/* habilidades */
-
+/* HABILIDADES */
 
 .habilidades{
     width: 90%;
@@ -12,6 +11,8 @@
     align-content: center;
     text-align: center;
 }
+
+/* titulo y parrafo Mis conocimientos */
 
 .introconocimientos{
     margin-top: 4%;
@@ -38,11 +39,9 @@
     text-align: center;
     justify-self: center;
 }
+    
+/* Cajas lenguajes  */
 
-/* .devicon-sass-original .colored{
-    /* height: 50px; */
-    /* width: 100px; */
-      
 .lenguajes{
     width: 70em;
     height: 70%;
@@ -53,6 +52,8 @@
     flex-wrap: wrap;
     margin-left: 17%;
 }
+
+/* Cada herramienta */
 
 .skill{
     background-color:rgb(238, 238, 238);
@@ -69,7 +70,6 @@
 }
 
 .skill:hover{
-    /* background-color:rgb(172, 172, 172); */
     border: ridge 2px rgb(196, 196, 196);
     box-shadow: 5px 5px 10px rgb(196, 196, 196);
 }
@@ -84,15 +84,10 @@
     color: var(--azul-oscuro);
 }
 
+
+
 /* RESPONSIVE */
 
-
-/* @media(max-width:1520px)and (min-width 1200){
-    .conocimientos{
-        font-size: 1rem;
-    }
-
-}     */
 
 @media(max-width:1100px)and (min-width:800px){
 
@@ -133,8 +128,6 @@
         font-size: 1.6rem;
         width: 100%;
     }
-
-  
 
     .introconocimientos h2{
         font-size: 2.6rem;

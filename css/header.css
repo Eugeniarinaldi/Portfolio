@@ -13,7 +13,7 @@ header .indice{
 .indice{
     width: 100%;
     height: 13%;
-    background-image: linear-gradient(to bottom right, #7f3a5f, rgb(17, 13, 62));
+    background-image: linear-gradient(to bottom right, var(--violeta-principal), var(--azul-oscuro));
     display: inline-flex;
     list-style: none;
     position: fixed;
@@ -22,13 +22,11 @@ header .indice{
 }
 
 header, .indice, ul, li{
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     list-style: none;
     text-transform: uppercase;
     display: inline-flex;
     margin: auto;
-    /* justify-content: flex-end;
-    justify-items: flex-end; */
 }
 
 header, .indice, .first a {
@@ -40,7 +38,7 @@ header, .indice, .first a:hover{
     color: #f3e2e5;
 }
 
-ul{
+.first-menu{
    display: flex;
    margin-left: 50%;
 }

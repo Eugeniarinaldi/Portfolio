@@ -1,4 +1,4 @@
-/* Presentacion */
+/* PRESENTACION */
 
 .presentacion{
     width: 90%;
@@ -7,6 +7,9 @@
     margin-top: 10em;
     display: flexbox;    
 }
+
+/* estilos sobre mi */
+
 .hola{
     font-size: 1.875rem;
     color: var(--azul-oscuro);
@@ -23,6 +26,15 @@
     margin-top: 1.5625rem;
     display: flex;
 }
+
+.intro{
+    width: 60%;
+    height: auto;
+    
+}
+
+/* Estilos boton lo que hago */
+
 .quehago{
     height: 8vh;
     width: 15vw;
@@ -35,14 +47,13 @@
     display: flex; 
 }
 
+
 .quehago a{
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-  
 }
 
 .quehago a:hover{
@@ -51,11 +62,9 @@
     border-radius: 30px;
 }
 
-.intro{
-    width: 60%;
-    height: auto;
-    
-}
+
+/* imagen principal */
+
 .fotperfil{
     display: flex;
     height: auto;
@@ -64,6 +73,9 @@
     margin-top: -50vh;
 
 }
+
+/* Fin presentacion */
+
 
 /* RESPONSIVO */
 

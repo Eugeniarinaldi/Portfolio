@@ -59,7 +59,7 @@
 
 
 .lastcontact .contact-me .fab,
-.fas{
+.lastcontact .contact-me .fas{
     height: 1.5em;
     width: 1.5em;
     margin: 1.2em;
@@ -71,7 +71,8 @@
     align-items: center;
 }
 
-.lastcontact .contact-me .fab:hover, .fas:hover{
+.lastcontact .contact-me .fab:hover, 
+.lastcontact .contact-me .fas:hover{
     background-color: var(--violeta-principal);
     border-radius: 100%;
     color: var(--rosa-claro) ; 
@@ -117,7 +118,7 @@ input{
     outline: none;
 }
 input:focus{
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     border-radius: 3em;
     border: thin 0.5em rgb(208, 208, 208);
     box-shadow: 3px 3px 10px  var(--violeta-principal);
