@@ -47,7 +47,7 @@ ul{
 
 header, .indice, a{ 
     text-decoration: none;
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     margin-right:2.1875rem;
     justify-content: right;
 }
@@ -56,12 +56,12 @@ header, .indice, a{
 .contact{
     height: 6vh;
     width: 20vh; 
-    background-color: #c9a5aa;
+    background-color: var(--rosa-claro);
     border-radius: 30vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
 }
 
 .contact a{
@@ -70,7 +70,8 @@ header, .indice, a{
 
 
 .contact:hover{
-    background-color:#f3e2e5;
+    background-color: var(--rosa-mas-claro);
+    font-weight: 600;
 }
 
 

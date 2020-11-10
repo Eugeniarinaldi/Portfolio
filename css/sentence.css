@@ -4,7 +4,7 @@
     height:75vh;
     width: 100%;
     margin-top: 12%;
-    background-color: #7f3a5f;
+    background-color: var(--violeta-principal);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,7 +15,7 @@
     width: 60%;
     height: 18%;
     position: absolute;
-    color: #dab2b8;
+    color:var(--rosa-mas-claro);
     font-style: oblique;
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@
     margin-bottom: 3.8rem;
 }
 .frase:hover{
-    color: #f0d4d8;
+    color: var(--casi-blanco);
     font-weight: 800;
     transition: all .5s ease-in-out;
     cursor: pointer;
@@ -38,7 +38,7 @@
 .autor{
     position: absolute;
     width: 100%;
-    color: #dab2b8;
+    color: var(--rosa-mas-claro);
     align-self: flex-end;
     text-align: center;
     margin-bottom: 1.5em;
@@ -46,7 +46,7 @@
      
 }
 .autor:hover{
-    color: #f0d4d8;
+    color: var(--casi-blanco);
     font-weight: 800;
     transition: all .5s ease-in-out;
     cursor: pointer;
@@ -58,7 +58,7 @@
     font-size: 80px;
     display: flex;
     margin-bottom: 4em;
-    color: #dab2b8;
+    color: var(--rosa-mas-claro);
 }
 
 /* Responsive */

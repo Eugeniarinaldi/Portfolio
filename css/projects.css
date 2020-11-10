@@ -11,14 +11,14 @@
 .my-projects{
     font-weight: 900;
     font-size: 6vh;
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     display: flex;
     justify-content: center;
     align-content: center;
     
 }
 .description-projects{
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
@@ -44,12 +44,12 @@
 }
 
 .projects-box a:hover{
-    border: solid 0.12em #7f3a5f;
+    border: solid 0.12em var(--violeta-principal);
 }
 
 .projects-box a:hover{
     transform: scale(1.1);
-    box-shadow: 5px 5px 10px #c9a5aa;
+    box-shadow: 5px 5px 10px var(--rosa-claro);
 }
 
 

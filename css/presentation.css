@@ -9,16 +9,16 @@
 }
 .hola{
     font-size: 1.875rem;
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     font-weight: 600;
     margin-bottom: 0.8em;
 }
 .eugenia{
-    color: #7f3a5f;
+    color: var(--violeta-principal);
     font-size: 50px;    
 }    
 .descripcion{
-    color: rgb(17, 13, 62);
+    color: var(--azul-oscuro);
     font-size: 2.5vh;
     margin-top: 1.5625rem;
     display: flex;
@@ -28,16 +28,12 @@
     width: 15vw;
     margin-top: 10%;
     border-radius: 30px;
-    color: rgb(17, 13, 62);;
+    color: var(--azul-oscuro);
     font-size: 0.9375rem;
     font-weight: 600;
-    background-color: #dab2b8;
+    background-color:var(--rosa-claro);
     display: flex; 
 }
-
-/* .quehago botton{
-    display: flex;
-} */
 
 .quehago a{
     height: 100%;
@@ -50,7 +46,7 @@
 }
 
 .quehago a:hover{
-    background-color: rgb(182, 180, 180);
+    background-color: var(--gris);
     cursor: pointer;
     border-radius: 30px;
 }
