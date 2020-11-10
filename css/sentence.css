@@ -58,7 +58,9 @@
     font-size: 80px;
     display: flex;
     margin-bottom: 4em;
+    justify-content: center;
     color: var(--rosa-mas-claro);
+
 }
 
 /* Responsive */
