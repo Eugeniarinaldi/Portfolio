@@ -4,7 +4,7 @@
 
 <br>
 
-### Podes ver como quedó haciendo click en este  [enlace](https://eugeniarinaldi.github.io/Portfolio/) o desde [acá]()
+### Podes ver como quedó haciendo click en este  [enlace](https://eugeniarinaldi.github.io/Portfolio/) o desde [acá](https://elated-banach-837f42.netlify.app)
 
 ### Si queres tener el codigo en tu computadora deberas seguir estos pasos en tu terminal.
 
@@ -28,8 +28,8 @@
 
 ***
 
-### Un especial agradecimiento para mis profes[John](https://github.com/Jonhks) y [Leydy](https://github.com/leydyk93/) por su ayuda y apoyo de siempre!
+### Un especial agradecimiento para mis profes [John](https://github.com/Jonhks) y [Leydy](https://github.com/leydyk93/) por su ayuda y apoyo de siempre!
 
 
-#### Hecho por Euge Rinaldi
+#### Hecho con ☕ por Euge Rinaldi
 
