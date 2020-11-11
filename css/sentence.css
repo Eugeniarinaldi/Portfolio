@@ -42,8 +42,7 @@
     align-self: flex-end;
     text-align: center;
     margin-bottom: 1.5em;
-    font-size: 20px;
-     
+       
 }
 .autor:hover{
     color: var(--casi-blanco);
