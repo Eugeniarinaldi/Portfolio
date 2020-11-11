@@ -84,7 +84,7 @@
 @media(max-width:900px){
 
     .cita{
-        width: auto;
+        width: 100%;
     }
     .cita i{
         font-size: 3rem;

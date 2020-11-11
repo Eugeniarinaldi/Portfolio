@@ -8,9 +8,7 @@
     /* box-shadow: 0 7px 20px rgba(92, 92, 92, 0.7) */
   }
 
-
   /* colores */
-
 
 :root {
   --violeta-principal: #7f3a5f;
@@ -22,4 +20,14 @@
   --gris: rgb(182, 180, 180);
   
 }
+
+/* responsive */
+
+/* @media(max-width:800px)and (min-width:270px){
+  footer{
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    } */
 
