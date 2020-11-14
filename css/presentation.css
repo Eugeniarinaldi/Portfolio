@@ -276,13 +276,16 @@
     }
 
     .fotperfil img{
+        display: flex;
        height: auto;
-       width: 100%;
-        margin-top: 5vh;
+       width: 110%;
+        margin-top: 3vh;
         justify-items: center;
         align-self: center;
         position: relative;
         flex-flow: column nowrap;
+        text-align: center;
+        justify-content: center;
     }  
 
     

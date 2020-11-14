@@ -85,10 +85,11 @@ footer .fab:hover{
 /* made by me */
 
 footer .made-by{
-    height: 20px;
+    height: 1.25rem;
     width: 16em;
-    color: #dcd4d4;
+    color:var(--casi-blanco);
     margin: 3em 28em;
+    font-weight: 500;
 
 }
 

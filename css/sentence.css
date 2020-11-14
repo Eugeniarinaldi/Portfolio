@@ -15,7 +15,7 @@
     width: 60%;
     height: 18%;
     position: absolute;
-    color:var(--rosa-mas-claro);
+    color:var(--casi-blanco);
     font-style: oblique;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@
 .autor{
     position: absolute;
     width: 100%;
-    color: var(--rosa-mas-claro);
+    color: var(--casi-blanco);
     align-self: flex-end;
     text-align: center;
     margin-bottom: 1.5em;
@@ -58,7 +58,7 @@
     display: flex;
     margin-bottom: 4em;
     justify-content: center;
-    color: var(--rosa-mas-claro);
+    color: var(--casi-blanco);
 
 }
 
