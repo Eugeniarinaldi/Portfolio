@@ -247,7 +247,7 @@
         height: auto;
     }
 
-      .intro p{
+      .intro .descripcion{
         font-size: 0.875rem;
         flex-direction:column ;
     }
@@ -258,17 +258,17 @@
         }
 
     .quehago {
-        width: auto;
-        height: 2.5rem;
+        width: 18rem;
+        height: 3.5rem;
         margin-top: 23rem;
-        font-size: 0.625rem;
         justify-self: center;
         position: relative;
+        align-items: center;
         
     } 
 
     .quehago a{
-        font-size: 0.625rem;
+        font-size: 1rem;
         text-align: center;
         justify-content: center;
        
@@ -277,7 +277,7 @@
 
     .fotperfil img{
        height: auto;
-       width: 95%;
+       width: 100%;
         margin-top: 5vh;
         justify-items: center;
         align-self: center;
