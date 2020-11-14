@@ -242,35 +242,40 @@
         max-width: 100%;
     
     }
-       .intro{
+    .intro{
         flex-direction: column;
-        height: auto;
+        height: 100%;
+        width: auto;
     }
-
-      .intro .descripcion{
-        font-size: 0.875rem;
+        
+    .intro .descripcion{
+        font-size: 1.3rem;
         flex-direction:column ;
     }
-    
+      
+
         .intro h1, p, .descripcion{
-            font-size: 1.875rem;
+            font-size: 2rem;
             text-align: center;
         }
 
     .quehago {
-        width: 18rem;
+        width: 110%;
         height: 3.5rem;
         margin-top: 23rem;
-        justify-self: center;
-        position: relative;
-        align-items: center;
+        /* justify-self: center; */
+        /* position: relative; */
+        /* align-items: center; */
+        align-content: center;
+        justify-content: center;
+        text-align: center;
         
     } 
 
     .quehago a{
         font-size: 1rem;
-        text-align: center;
-        justify-content: center;
+        /* text-align: center;
+        /* justify-content: center; */ 
        
 
     }
@@ -278,15 +283,22 @@
     .fotperfil img{
         display: flex;
        height: auto;
-       width: 110%;
-        margin-top: 3vh;
+       width: 120%;
         justify-items: center;
         align-self: center;
         position: relative;
         flex-flow: column nowrap;
         text-align: center;
         justify-content: center;
+        
     }  
+
+    .fotperfil{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
 
     
  }    

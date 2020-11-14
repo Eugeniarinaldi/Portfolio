@@ -44,7 +44,7 @@
 
 .lastcontact .contact-me a {
     height: 2.5em;
-    width: 25em;
+    width: 21em;
     display: inline-flex;
     flex-direction: row;
     margin-top: 2em;
@@ -62,7 +62,7 @@
 .lastcontact .contact-me .fas{
     height: 1.5em;
     width: 1.5em;
-    margin: 1.2em;
+    margin: 4%;
     font-size: 1.5em;
     color: var(--violeta-principal);
     display: flex;
@@ -267,4 +267,10 @@ textarea:focus{
     .contact-form button{
         width: auto;
     }
+
+    .lastcontact .contact-me a{
+        width: 20em;
+        height: auto;
+    }
 }
+

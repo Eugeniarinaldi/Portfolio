@@ -236,19 +236,21 @@
     .lenguajes{
         display: flex;
         height: auto;
-        width: 100%;
+        width: 85%;
         position: relative;
         flex-wrap: wrap;
         box-sizing: border-box;
-        align-content: center;
-        margin-top: 2rem;
-        margin-left: 1.25rem;
-        margin-bottom: 5rem;
+        align-items: center;
+        margin-top: 0.5rem;
+        margin-left: 1rem;
+        margin-bottom: 4rem;
+    
     }
 
     .skill{
         height: 6.25rem;
         width: 6.25rem;
+        margin: 2% 6%;
         
     }
 

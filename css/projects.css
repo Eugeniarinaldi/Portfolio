@@ -106,17 +106,21 @@
         text-align: center;
     }
 
-    /* .proyects-box {
-        height: auto;
+    .projects-box{
+        width: 90%;
     }
 
-    .proyects-box a{
-        width: 300px;
-        height: 300px;
+    .projects-box a{
+        /* width: 280px;
+        height: 280px; */
     }
 
+    .projects-box a img{
+        width: 100%;
+        height: autocd;
+    }
     .project-name{
         width: auto;
-    } */
+    }
 
 }
