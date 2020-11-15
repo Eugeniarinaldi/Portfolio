@@ -30,7 +30,6 @@ header, .indice, ul, li{
 }
 
 header, .indice, .first a {
-    
     color: #dcd4d4;
 }
 
@@ -71,6 +70,63 @@ header, .indice, a{
     background-color: var(--rosa-mas-claro);
     font-weight: 600;
 }
+
+
+/* menu hamburguesa */
+
+header{
+  width: 100%;
+  background-color:var(--violeta-principal);
+
+}
+
+#btn-menu{
+  display: none;
+
+}
+
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid var(--rosa-claro);
+}
+
+header label i{
+  color: var(--rosa-claro);
+}
+
+header label:hover{
+  cursor: pointer;
+  background-color: var(--rosa-claro);
+
+}
+
+@media (max-width:750px){
+    header label {
+        display: block;
+    }
+    .indice{
+        position: absolute;
+        background-color: var(--violeta-principal);
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+
+    .indice ul{
+       flex-direction: column; 
+    }
+
+    .btn-menu:checked ~ .indice{
+        margin: 0;
+
+    }
+}
+
+
+/* fin menu hamburguesa */
 
 
 /* responsivo */
@@ -116,4 +172,4 @@ header, .indice, a{
         background-color: #c9a5aa;
     
     }
-}
+} 

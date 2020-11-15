@@ -21,6 +21,41 @@
   
 }
 
+/* menu hamburguesa */
+
+header{
+  width: 100%;
+  background-color:var(--violeta-principal);
+
+}
+
+#btn-menu{
+  display: none;
+}
+
+header label{
+  display: none;
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-right: 1px solid var(--rosa-claro);
+}
+
+header label i{
+  color: var(--rosa-claro);
+}
+
+header label:hover{
+  cursor: pointer;
+  background-color: var(--rosa-claro);
+
+}
+
+
+
+
+
+
 /* responsive */
 
 /* @media(max-width:800px)and (min-width:270px){
