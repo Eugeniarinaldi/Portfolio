@@ -75,14 +75,13 @@ header, .indice, a{
 /* menu hamburguesa */
 
 header{
-  width: 100%;
+  width: 8%;
   background-color:var(--violeta-principal);
 
 }
 
 #btn-menu{
   display: none;
-
 }
 
 header label{

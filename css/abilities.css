@@ -194,9 +194,13 @@
 }    
 
 @media(max-width:600px) and (min-width: 270px){
+    html{
+        margin: 0%;
+    }
+    
     .habilidades{
         height: auto;
-        width: 100%;
+        width: 85%;
         margin-top: 30rem;
         align-items: center;
         display: flex;
