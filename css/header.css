@@ -71,6 +71,19 @@ header, .indice, a{
     font-weight: 600;
 }
 
+.first a:focus{
+    height: 6vh;
+    width: auto;
+    background-color: var(--rosa-claro);
+    border-radius: 30vh;
+    color: var(--azul-oscuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 5 7 10 var(--casi-blanco);
+}
+
 
 /* menu hamburguesa */
 
@@ -89,7 +102,7 @@ header label{
   width: 30px;
   height: 30px;
   padding: 10px;
-  border-right: 1px solid var(--rosa-claro);
+  /* border-right: 1px solid var(--rosa-claro); */
 }
 
 header label i{

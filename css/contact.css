@@ -9,7 +9,7 @@
     align-content: center;
     border: thin 0.1em var(--violeta-principal);
     border-radius: 0.8em;  
-    padding-top: 1em;
+    padding-top: 2em;
     box-shadow: 5px 5px 10px  var(--rosa-claro); 
     background-color: #e9e2e2;
 }
