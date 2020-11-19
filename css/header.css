@@ -85,29 +85,7 @@ header, .indice, a{
 }
 
 
-
-
-/* @media (max-width:750px){
-    header label {
-        display: block;
-    }
-    .indice{
-        position: absolute;
-        background-color: var(--violeta-principal);
-        /* width: 100%; */
-        height: auto;
-        margin-left: -70%;
-        transition: all 0.5s;
-    }
-
-    .indice ul{
-       flex-direction: column; 
-    }
- */
-
-
-
-/* responsivo */
+/* RESPONSIVO */
 
 @media(max-width:1200px)and (min-width:1100px){
   .contact{

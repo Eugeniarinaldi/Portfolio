@@ -178,7 +178,7 @@ textarea:focus{
 }
 .write-me form button:hover{
     background-color: var(--violeta-principal);
-    color: var(--rosa-claro);
+    color: var(--rosa-mas-claro);
     cursor: pointer;
     
 }
