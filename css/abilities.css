@@ -160,7 +160,6 @@
        
     } 
 
-    
     .skill{
         height: 9rem;
         width: 9rem;
@@ -181,6 +180,7 @@
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        margin: auto;
     }
     .introconocimientos .conocimientos{
         margin-top: 1rem;
@@ -201,7 +201,7 @@
     .habilidades{
         height: auto;
         width: 85%;
-        margin-top: 30rem;
+        margin: 23rem auto auto auto;
         align-items: center;
         display: flex;
         flex-wrap: wrap;

@@ -246,12 +246,12 @@ textarea:focus{
     .lastcontact .contact-me h2, 
     .lastcontact .write-me h2{
             margin-top: 2.5rem;
-            font-size: 1.5rem;
+            font-size: 2rem;
     }
 
     
     .lastcontact .contact-me p{
-        font-size: 1rem;
+        font-size: 1.5rem;
         width: auto;
        margin-bottom: -1.25rem;
     }
@@ -259,7 +259,8 @@ textarea:focus{
     .lastcontact .contact-me a{
         margin-top: 1rem;
     }
-
+    /* formulario */
+     
     .write-me{
         width: 90%;
     }

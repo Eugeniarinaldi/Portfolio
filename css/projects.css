@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
+   
 }
 
 /* Estilos imagenes proyectos */
@@ -98,11 +99,11 @@
 
 @media(max-width:800px)and (min-width:270px){
     .my-projects{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .description-projects{
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
     }
 
@@ -110,10 +111,6 @@
         width: 90%;
     }
 
-    .projects-box a{
-        /* width: 280px;
-        height: 280px; */
-    }
 
     .projects-box a img{
         width: 100%;

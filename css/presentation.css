@@ -163,7 +163,7 @@
     
 }
 
- @media(max-width:800px)and (min-width:550px) {
+ @media(max-width:900px)and (min-width:550px) {
      
     .presentacion{
         height: 14em;
@@ -186,14 +186,14 @@
     }
     
     .intro h1, p, .descripcion{
-        font-size: 1.875rem;
+        font-size: 2.2rem;
         text-align: center;
      }
-
+    
     .quehago {
-        width: 30%;
-        height: 2.5rem;
-        font-size: 0.625rem;
+        width: 40%;
+        height: 4rem;
+        font-size: 2rem;
         justify-self: center;
         position: absolute;
         top: 0;
@@ -204,9 +204,9 @@
         margin-top: 42rem;
         
     } 
-
+    
     .quehago a{
-        font-size: 0.625rem;
+        font-size: 1.2rem;
         text-align: center;
         justify-content: center;
     }
