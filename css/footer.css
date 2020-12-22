@@ -16,7 +16,7 @@ footer{
 
 .last-menu{
     justify-items: center;
-    margin-left: 20em;
+    margin:auto;
 }
 .last-menu a{
     width: 100%;
@@ -35,8 +35,8 @@ footer{
 .social{
     height: 18%;
     display: flex;
+    margin:auto;
     margin-top: 4em;
-    margin-left: 29em;
     font-size: 1em;
 
 }
@@ -88,7 +88,8 @@ footer .made-by{
     height: 1.25rem;
     width: 16em;
     color:var(--casi-blanco);
-    margin: 3em 28em;
+    margin: auto;
+    margin-top: 3em;
     font-weight: 500;
 
 }

@@ -22,9 +22,10 @@
     justify-content: center;
     text-align: center;
     font-weight: 600;
-    font-size: 1em;
+    font-size: 1.8em;
     line-height: 2em;
-    margin-bottom: 3.8rem;
+    margin-bottom: 3.3rem;
+    margin-top: 4rem
 }
 .frase:hover{
     color: var(--casi-blanco);

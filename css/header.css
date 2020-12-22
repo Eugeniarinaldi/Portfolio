@@ -45,7 +45,7 @@ header, .indice, .first a:hover{
 header, .indice, a{ 
     text-decoration: none;
     color: var(--azul-oscuro);
-    margin-right:2.1875rem;
+    margin-right:3.9rem;
     justify-content: right;
 }
 
